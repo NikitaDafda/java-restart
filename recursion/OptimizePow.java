@@ -5,13 +5,13 @@ public class OptimizePow {
         if(n==0){
             return 1;
         }
-
-        int halfpow= PowerOf(x,n/2)*PowerOf(x,n/2);
+        int halfpow=PowerOf(x,n/2);
+        int halfpowSq= halfpow*halfpow;
         if(n%2 != 0){
-            return x*halfpow;
+            return x*halfpowSq;
         }
 
-        return halfpow;
+        return halfpowSq;
     }
     public static void main(String[] args) {
         System.out.println(PowerOf(2,7));    
