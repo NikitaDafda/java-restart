@@ -9,15 +9,17 @@ public class Tiles {
         }
     
         // if tile placed vertically
-        int vertical=tileProblem(n-1);
+        // int vertical=tileProblem(n-1);
 
-        // if tile placed horizontally
-        int horizontal=tileProblem(n-2);
+        // // if tile placed horizontally
+        // int horizontal=tileProblem(n-2);
 
-        //number of ways to place tiles
-        int totalway= vertical+horizontal;
+        // //number of ways to place tiles
+        // int totalway= vertical+horizontal;
 
-        return totalway;
+        return tileProblem(n-1)+tileProblem(n-2);
+
+
     }
     public static void main(String[] args) {
         System.out.println(tileProblem(3));
