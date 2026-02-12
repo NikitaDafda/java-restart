@@ -1,4 +1,4 @@
-package arrays.assigment;
+package arrays.Darray;
 
 public class sum {
     //printing sum of 2nd row
