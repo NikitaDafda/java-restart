@@ -1,7 +1,7 @@
 package recursion2;
 
 public class BinaryString {
-    // code for binary strings which not have consecutive ones
+    // code for binary strings which not have consecutive ones.
     public static void BinaryStr(int n,int lastPlace,String str){
         if(n==0){
             System.out.println(str);
