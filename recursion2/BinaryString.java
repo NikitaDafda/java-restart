@@ -14,7 +14,11 @@ public class BinaryString {
         BinaryStr(n-1,1,str+"1");
     }
     }
+    
     public static void main(String[] args) {
         BinaryStr(3,0,"");
+        
     }
-}
+    }
+
+

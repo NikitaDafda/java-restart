@@ -16,6 +16,7 @@ public class TrappedWater {
         maxRight[n - 1] = height[n - 1];
         for (int i = n - 2; i >= 0; i--) {
             maxRight[i] = Math.max(maxRight[i + 1], height[i]);
+            
         }
 
         // calculate trapped water
