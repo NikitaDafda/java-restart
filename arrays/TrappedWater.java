@@ -31,6 +31,6 @@ public class TrappedWater {
 
     public static void main(String[] args) {
         int height[] = {4, 2, 0, 6, 3, 2, 5};
-        System.out.println(TrapedWater(height)); // 11
+        System.out.println(TrapedWater(height)); // answer will be 11
     }
 }
