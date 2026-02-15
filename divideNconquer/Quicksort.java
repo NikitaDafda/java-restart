@@ -28,7 +28,7 @@ public class Quicksort {
             arr[i]=temp;
         }}
         i++;
-        int temp=pivot;
+        int temp=arr[ei];
             arr[ei]=arr[i];
             arr[i]=temp;
             return i;
