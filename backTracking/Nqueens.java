@@ -25,6 +25,7 @@ public class Nqueens {
         //base case
         if(row==board.length){
             printBoard(board);
+            count++;
             return;
         }
             for(int j=0;j<board.length;j++){
@@ -33,9 +34,11 @@ public class Nqueens {
                     nQueens(board,row+1); //function call
                     board[row][j]='X'; // backtracking
                 }
+                
             }
+            
     }
-    
+
     //printing board
     public static void printBoard(char board[][]){
         System.out.println("-----------");
@@ -46,6 +49,7 @@ public class Nqueens {
             System.out.println();
         }
 }
+ static int count=0;
     public static void main(String[] args) {
         int n=4;
         char board[][]= new char [n][n];
@@ -56,6 +60,7 @@ public class Nqueens {
             }
         }
         nQueens(board,0);
+        System.out.println("total number of solution is="+count);
     }
 }
 
