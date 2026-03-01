@@ -14,8 +14,13 @@ public class Maximum {
             int min =Integer.MIN_VALUE;
             for(int i=0;i<=list.size()-1;i++){
                 if(list.get(i)>min){
-                    min=list.get(i);
-                    System.out.println(min);
+
+                    // min=list.get(i);
+                    // System.out.println(min);
+
+                    int max=Math.max(min,list.get(i));
+                     System.out.println(max);           //Time=O(n)
+            
                 }
 
             }
