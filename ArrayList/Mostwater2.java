@@ -2,8 +2,8 @@ package ArrayList;
 
 import java.util.ArrayList;
 
-//Optimized approach 
-//time compexity= O(n) 
+//Optimized approach for container with most water
+//time compexity= O(n) linear time 
 public class Mostwater2 {
 
 public static int storeWater(ArrayList<Integer> height){
