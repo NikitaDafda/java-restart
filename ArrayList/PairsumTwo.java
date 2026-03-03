@@ -1,6 +1,6 @@
 package ArrayList;
 import java.util.*;
-// find paisum in sorted and roatated ArrayList using 2 point approach and modular arithmetic"
+// find pairsum in sorted and roatated ArrayList using 2 point approach and modular arithmetic
 public class PairsumTwo {
     public static boolean pairSum(ArrayList<Integer>list,int target){
         int bp=-1;
@@ -26,12 +26,9 @@ public class PairsumTwo {
             }else{
                 rp=((n+rp-1)%n);
             }
-            
-       
      }  return false;
                 
     }
-    
     public static void main(String[] args) {
         ArrayList<Integer>list=new ArrayList<>();
         list.add(11);
